@@ -19,15 +19,15 @@ with open('README.md', 'r', encoding='utf-8') as f:
     
 __version__= "0.0.4"
 REPO_NAME = "MLOps_MongoDB_Package"
-PKG_Name = "MongoDB-Connect"  # databaseautomation
-AUTHOR_USER_Name = "Chakrapani Waghmode"
+PKG_Name = "databaseautomation"  # "MongoDB-Connect"
+AUTHOR_USER_Name = "Iron_Ck"
 AUTHOR_EMAIL = "chakrapaniwaghmode8@gmail.com"
 
 """
 setup(
     name='DimondPricePrediction',
     version='0.0.4',
-    author='Chakrapani Waghmode',
+    author='Iron_Ck',
     author_email='chakrapaniwaghmode8@gmail.com',
     install_requires=["scikit-learn","pandas","numpy"],
     packages=find_packages()
