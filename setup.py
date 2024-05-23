@@ -20,7 +20,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
 __version__= "0.0.4"
 REPO_NAME = "MLOps_MongoDB_Package"
 PKG_Name = "databaseautomation"  # "MongoDB-Connect"
-AUTHOR_USER_Name = "Iron-Ck26"
+AUTHOR_USER_Name = "Iron-Ck"
 AUTHOR_EMAIL = "chakrapaniwaghmode8@gmail.com"
 
 """
