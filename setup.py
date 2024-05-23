@@ -14,21 +14,21 @@ def get_requirements(file_path:str)->List[str]:
 
     return requirements"""
     
-with open('READE.md', 'r', encoding='utf-8') as f:
+with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()
     
 __version__= "0.0.4"
 REPO_NAME = "MLOps_MongoDB_Package"
-PKG_Name = "databaseautomation"
-AUTHOR_USER_Name = "Iron_Ck26"
+PKG_Name = "MongoDB-Connect"  # databaseautomation
+AUTHOR_USER_Name = "Chakrapani Waghmode"
 AUTHOR_EMAIL = "chakrapaniwaghmode8@gmail.com"
 
 """
 setup(
     name='DimondPricePrediction',
-    version='0.0.1',
-    author='sunny savita',
-    author_email='sunny.savita@ineuron.ai',
+    version='0.0.4',
+    author='Chakrapani Waghmode',
+    author_email='chakrapaniwaghmode8@gmail.com',
     install_requires=["scikit-learn","pandas","numpy"],
     packages=find_packages()
 )
