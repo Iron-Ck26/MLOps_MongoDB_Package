@@ -67,13 +67,13 @@ def get_requirements(file_path: str) -> List[str]:
 
     return requirements
 
-with open('README.md', 'r', encoding='utf-8') as f:
-    long_description = f.read()
+with open('README.md', 'r', encoding='utf-8') as fh:
+    long_description = fh.read()
 
 __version__ = "0.0.4"
 REPO_NAME = "MLOps_MongoDB_Package"
 PKG_NAME = "databaseautomation"
-AUTHOR_USER_NAME = "Iron-Ck"
+AUTHOR_USER_NAME = "Iron_Ck26"
 AUTHOR_EMAIL = "chakrapaniwaghmode8@gmail.com"
 
 setup(
