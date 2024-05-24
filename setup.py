@@ -90,7 +90,9 @@ setup(
     },
     package_dir={"": "src"},
     packages=find_packages(where="src"),
-    install_requires=get_requirements("requirements.txt"),
+)
+    
+""" install_requires=get_requirements("requirements.txt"),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
@@ -98,3 +100,4 @@ setup(
     ],
     python_requires='>=3.6',
 )
+"""
